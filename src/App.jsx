@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <label htmlFor="">E-mail</label>
       <ChakraBaseProvider theme={theme}>
         <Input variant='outline' placeholder='Outline' />
       </ChakraBaseProvider>
