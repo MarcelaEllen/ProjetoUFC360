@@ -1,5 +1,6 @@
 import * as React from 'react'
 import './App.css'
+import { Input } from '@chakra-ui/react'
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-   <h1>Marcelaaaa</h1>
+      <Input variant='outline' placeholder='Outline' />
     </>
   )
 }
