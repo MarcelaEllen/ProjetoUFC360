@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <Input variant='outline' placeholder='Outline' />
+      <ChakraBaseProvider theme={theme}>
+        <Input variant='outline' placeholder='Outline' />
+      </ChakraBaseProvider>
     </>
   )
 }
