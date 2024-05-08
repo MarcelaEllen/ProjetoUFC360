@@ -1,13 +1,12 @@
 import * as React from 'react'
 import './App.css'
+import BarraLateral from '../componentes/barraLateral'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-   <h1>Marcelaaaa</h1>
+      <BarraLateral />
     </>
   )
 }
