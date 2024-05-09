@@ -3,7 +3,7 @@ import "./barraLateral.css";
 
 export function BarraLateral() {
     return (
-        <Box display="flex" alignItems="center"flexDirection={"column"} bg='#6C63FF' w='8%' h="100%" color='white'>
+        <Box display="flex" alignItems="center"flexDirection={"column"} bg='#6C63FF' w='8%' h="100vh" color='white'>
         <Image
           boxSize='100px'
           src="/icons/logo.png"
