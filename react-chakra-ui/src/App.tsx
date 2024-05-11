@@ -3,11 +3,12 @@ import './App.css'
 import { BarraLateral} from "./components/barraLateral/barraLateral";
 import { AvaliacaoContainer } from "./components/avaliacaoContainer/avaliacaoContainer";
 
+
 function App() {
   return (
-    <Flex width={"100vw"} height={"100vh"} backgroundColor={"#202020"}>
+    <Flex width={"100vw"} height={"100v%"} backgroundColor={"#202020"}>
       <BarraLateral/>
-      <AvaliacaoContainer/>     
+      <AvaliacaoContainer/>    
     </Flex>
   )
 }

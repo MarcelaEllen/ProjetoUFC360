@@ -27,7 +27,8 @@ const Dropdown: React.FC<DropdownProps> = ({ options, onSelect}) => {
         p={2}
         cursor="pointer"
         position="relative"
-        left={"100%"}
+        left={"12rem"}
+        top={"2rem"}
         color={"#6C63FF"}
         fontSize={"16px"}  
         _placeholder={{ opacity: 0.8, color: 'inherit' }} 
